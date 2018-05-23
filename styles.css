@@ -6,7 +6,7 @@
 	height:30px;
     width:150px;
     border-radius: 30px;
-    background:#009462;
+    background:#3FAD85;
    	
    	-ms-transform: rotate(70deg); /* IE 9 */
     -webkit-transform: rotate(70deg); /* Safari 3-8 */
@@ -16,7 +16,8 @@
 	left: 90px;
 	top: 100px;
 
-	opacity: 0.85;
+  mix-blend-mode: multiply;
+
 }
 
 .yellow1{
@@ -24,7 +25,7 @@
 	height:30px;
     width:150px;
     border-radius: 30px;
-    background:orange;
+    background:#DFA647;
    	
    	-ms-transform: rotate(0deg); /* IE 9 */
     -webkit-transform: rotate(0deg); /* Safari 3-8 */
@@ -34,7 +35,8 @@
 	left: 0px;
 	bottom: 60px;
 
-	opacity: 0.85;
+  mix-blend-mode: multiply;
+
 }
 
 .blue1 {
@@ -45,13 +47,14 @@
   	height:30px;
     width:150px;
     border-radius: 30px;
-    background:#04B1B5;
+    background:#73C3C8;
     
     -ms-transform: rotate(270deg); /* IE 9 */
     -webkit-transform: rotate(270deg); /* Safari 3-8 */
     transform: rotate(270deg);
 
-    opacity: 0.85;
+  mix-blend-mode: multiply;
+
 }
 
 .pink1 {
@@ -62,11 +65,12 @@
   	height:30px;
     width:150px;
     border-radius: 30px;
-    background:#FF0C4D;
+    background:#CB245B;
     
     -ms-transform: rotate(0deg); /* IE 9 */
     -webkit-transform: rotate(0deg); /* Safari 3-8 */
     transform: rotate(0deg);
 
-    opacity: 0.85;
+  mix-blend-mode: multiply;
+
 }
