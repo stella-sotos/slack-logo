@@ -1,0 +1,72 @@
+.logo{
+	position: relative;
+}
+
+.green1{
+	height:30px;
+    width:150px;
+    border-radius: 30px;
+    background:#009462;
+   	
+   	-ms-transform: rotate(70deg); /* IE 9 */
+    -webkit-transform: rotate(70deg); /* Safari 3-8 */
+    transform: rotate(70deg);
+    
+    position: absolute;
+	left: 90px;
+	top: 100px;
+
+	opacity: 0.85;
+}
+
+.yellow1{
+	
+	height:30px;
+    width:150px;
+    border-radius: 30px;
+    background:orange;
+   	
+   	-ms-transform: rotate(0deg); /* IE 9 */
+    -webkit-transform: rotate(0deg); /* Safari 3-8 */
+    transform: rotate(0deg);
+    
+    position: absolute;
+	left: 0px;
+	bottom: 60px;
+
+	opacity: 0.85;
+}
+
+.blue1 {
+	position: absolute;
+	top: 30px;
+	right: 30px;
+  	
+  	height:30px;
+    width:150px;
+    border-radius: 30px;
+    background:#04B1B5;
+    
+    -ms-transform: rotate(270deg); /* IE 9 */
+    -webkit-transform: rotate(270deg); /* Safari 3-8 */
+    transform: rotate(270deg);
+
+    opacity: 0.85;
+}
+
+.pink1 {
+	position: absolute;
+	top: 60px;
+	right: 0px;
+
+  	height:30px;
+    width:150px;
+    border-radius: 30px;
+    background:#FF0C4D;
+    
+    -ms-transform: rotate(0deg); /* IE 9 */
+    -webkit-transform: rotate(0deg); /* Safari 3-8 */
+    transform: rotate(0deg);
+
+    opacity: 0.85;
+}
